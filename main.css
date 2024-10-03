@@ -1,0 +1,72 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: #1a4b84;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #1a4b84;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-catalogo .nav-link.active:hover {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #3574b5;
+}
+
+.section-title {
+  font-family: 'Pacifico', cursive;
+}
+
+#sobre-a-livraria,
+#fale-conosco {
+  background-color: #e6f0fa;
+}
+
+.text-colored {
+  color: #1a4b84;
+}
+
+.nav-catalogo .nav-link.active,
+#fale-conosco button {
+  background-color: #1a4b84;
+  color: #fff;
+}
+
+.nav-catalogo .nav-link:hover {
+  color: #1a4b84;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #1a4b84;
+}
+
+.btn {
+  background-color: #1a4b84;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #3574b5;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 288px;
+  }
+}
